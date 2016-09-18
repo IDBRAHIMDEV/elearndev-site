@@ -23,7 +23,7 @@
    <style>
      html {
       font-family: 'Raleway', sans-serif;
-      font-size: 13px;
+      font-size: 14px;
      }
    </style>
    {% block stylesheets %}{% endblock %}
@@ -48,6 +48,12 @@
 
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <script>
+       $(document).ready(function(){
+           new WOW().init();
+       });
+    </script>   
 
     {% block javascripts %}{% endblock %}
 </body>

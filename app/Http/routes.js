@@ -18,3 +18,7 @@
 const Route = use('Route')
 
 Route.on('/').render('welcome')
+
+Route.on('/cours').render('cours')
+
+Route.on('/series').render('series')
